@@ -1,7 +1,7 @@
 
 Voy a explicar lo que he hecho en este proyecto 
 ## MainActivity.kt
-Vamos a crear una aplicación sencilla que permite al usuario ingresar un nombre, guardarlo temporalmente y luego navegar a una pantalla de configuración.
+Vamos a crear una aplicación sencilla que permite al usuario ingresar un nombre, guardarlo temporalmente y luego navegar a una pantalla de configuración. Utiliza un ViewModel para gestionar el color del fondo de la pantalla 
 -  MainActivity es la actividad principal de la aplicación, que contiene la pantalla donde el usuario puede ingresar su nombre y navegar a la siguiente actividad.
 -  El @composable  MainScreen  maneja el diseño de la pantalla principal. Permite al usuario ingresar un nombre, guardarlo temporalmente, y luego mostrar el nombre guardado en pantalla. También tiene un botón que permite navegar a la pantalla de configuración.
 ### SettingsActivity.kt
