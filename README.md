@@ -1,6 +1,4 @@
-
-Voy a explicar lo que he hecho en este proyecto 
-## MainActivity.kt
+ ## MainActivity.kt
 Vamos a crear una aplicación sencilla que permite al usuario ingresar un nombre, guardarlo temporalmente y luego navegar a una pantalla de configuración. Utiliza un ViewModel para gestionar el color del fondo de la pantalla 
 -  MainActivity es la actividad principal de la aplicación, que contiene la pantalla donde el usuario puede ingresar su nombre y navegar a la siguiente actividad.
 -  El @composable  MainScreen  maneja el diseño de la pantalla principal. Permite al usuario ingresar un nombre, guardarlo temporalmente, y luego mostrar el nombre guardado en pantalla. También tiene un botón que permite navegar a la pantalla de configuración.
@@ -16,4 +14,6 @@ Esta clase perimite a los usuarios cambiar el color de fondo de la pantalla de c
 ### StartActivity.kt
 Esta clase se enfoca en crear una pantalla de inicio que muestra un saludobasado en la hora del día y permite al usuario navegar a la pantalla principal de la aplicación.
 - StartActivity es la actividad principal que se encarga de la pantalla de inicio. Esta actividad utiliza el ViewModel para almacenar el estado del color de fondo y establece el contenido mediante la función composable StartScreen.
-- El @composable StartScreen maneja el diseño de la pantalla de inicio. Esta configurado para que calcule la hora actual para mostrar un saludo adecuado. Además, se incluye un botón que permite al usuario continuar a la siguiente pantalla. 
+- El @composable StartScreen maneja el diseño de la pantalla de inicio. Esta configurado para que calcule la hora actual para mostrar un saludo adecuado. Además, se incluye un botón que permite al usuario continuar a la siguiente pantalla.
+
+URL : https://github.com/inesgmz/Taller1.git
