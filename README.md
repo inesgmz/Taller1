@@ -10,3 +10,6 @@ Esta clase perimite a los usuarios cambiar el color de fondo de la pantalla de c
 - El @composable ColorSelection permite al usuario seleccionar uno de tres colores (Amarillo, Gris Claro o Azul). Cuando un color es seleccionado, el viewModel actualiza el estado de selectedBackgroundColor, lo que cambia el color de fondo en la SettingsScreen.
 - El @composable ColorButton representa un botón que permite al usuario seleccionar un color de fondo. Cuando un color es seleccionado, aparece un ícono de verificación y el viewModel se actualiza para reflejar el color elegido.
 ### StartActivity.kt
+Esta clase se enfoca en crear una pantalla de inicio que muestra un saludobasado en la hora del día y permite al usuario navegar a la pantalla principal de la aplicación.
+- StartActivity es la actividad principal que se encarga de la pantalla de inicio. Esta actividad utiliza el ViewModel para almacenar el estado del color de fondo y establece el contenido mediante la función composable StartScreen.
+- El @composable StartScreen maneja el diseño de la pantalla de inicio. Esta configurado para que calcule la hora actual para mostrar un saludo adecuado. Además, se incluye un botón que permite al usuario continuar a la siguiente pantalla. 
